@@ -16,13 +16,16 @@ public class Main {
 
 
 class Abc{
-    final int a =3;
-    Abc(){};
+
+    Abc(){}
 
     void x1 () {
-        x2();
+        try{x2();}catch(IOException e){
+            System.out.println("yeah!");
+            System.out.println("!!");
+        }
     }
-    void x2 () throws IOException {
-        throw new RuntimeException();
+    void x2 () throws IOException{
+        throw new IOException();
     }
 }
