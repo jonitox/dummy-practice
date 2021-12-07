@@ -26,8 +26,7 @@ class Abc{
         try{x2();}catch(IOException e){
             System.out.println("reset");
             System.out.println("ch1");
-            System.out.println("ch2");
-            System.out.println("ch3");
+
         }
     }
     void x2 () throws IOException{
