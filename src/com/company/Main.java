@@ -24,11 +24,7 @@ class Abc{
 
     void x1 () {
         try{x2();}catch(IOException e){
-            System.out.println("main1");
-            System.out.println("c1");
-            System.out.println("c2");
-            System.out.println("c3");
-            System.out.println("c4");
+            System.out.println("reset");
         }
     }
     void x2 () throws IOException{
