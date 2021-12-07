@@ -10,8 +10,7 @@ public class Main {
         System.out.println("oh!");
 
         x.x1();
-        x.x1();
-        x.x1();
+
     }
 }
 
