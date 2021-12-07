@@ -9,8 +9,7 @@ public class Main {
         Bcd y = new Bcd();
         y.toString();
         x.toString();
-        System.out.println("oh!");
-        System.out.println("oh2");
+        System.out.println("o1");
         x.x1();
 
     }
@@ -26,6 +25,7 @@ class Abc{
         try{x2();}catch(IOException e){
             System.out.println("reset");
             System.out.println("ch0");
+
         }
     }
     void x2 () throws IOException{
