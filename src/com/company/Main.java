@@ -26,6 +26,7 @@ class Abc{
         }
     }
     void x2 () throws IOException{
+        ;;
         throw new IOException();
     }
 }
