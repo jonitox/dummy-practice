@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         Abc x = new Abc();
+        Bcd y = new Bcd();
+        y.toString();
         x.toString();
         System.out.println("oh!");
 
@@ -14,6 +16,7 @@ public class Main {
     }
 }
 
+class Bcd{}
 
 class Abc{
 
