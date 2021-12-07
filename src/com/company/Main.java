@@ -20,9 +20,11 @@ class Abc{
     Abc(){}
 
     void x1 () {
-        try{x2();}catch(IOException e){
-            System.out.println("yeah!");
-            System.out.println("!!");
+        try{x2();
+
+            System.out.println("reset");
+        }catch(IOException e){
+
         }
     }
     void x2 () throws IOException{
