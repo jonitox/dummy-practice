@@ -25,7 +25,7 @@ class Abc{
     void x1 () {
         try{x2();}catch(IOException e){
             System.out.println("main1");
-
+            System.out.println("c1");
         }
     }
     void x2 () throws IOException{
