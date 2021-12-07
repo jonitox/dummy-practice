@@ -10,6 +10,8 @@ public class Main {
         y.toString();
         x.toString();
 
+        System.out.println("o1");
+        System.out.println("o2");
         x.x1();
 
     }
@@ -25,6 +27,7 @@ class Abc{
         try{x2();}catch(IOException e){
             System.out.println("reset");
             System.out.println("ch0");
+
         }
     }
     void x2 () throws IOException{
