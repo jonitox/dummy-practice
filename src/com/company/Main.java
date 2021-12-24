@@ -12,7 +12,7 @@ public class Main {
         System.out.println("o1");
         System.out.println("o2");
         x.x1();
-
+        x.x1();
     }
 }
 
@@ -24,14 +24,11 @@ class Abc{
 
     void x1 () {
         try{x2();}catch(IOException e){
-            System.out.println("reset");
-            System.out.println("ch0");
-
+            System.out.println("t1");
+            System.out.println("t1.2");
         }
     }
     void x2 () throws IOException{
-        ;;
-        ;;
         throw new IOException();
     }
 }
