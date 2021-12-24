@@ -16,6 +16,8 @@ public class Main {
         System.out.println("base1");
         System.out.println("base2");
         System.out.println("as1");
+        System.out.println("as2");
+
     }
 }
 
