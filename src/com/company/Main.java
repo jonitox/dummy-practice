@@ -9,7 +9,6 @@ public class Main {
         Bcd y = new Bcd();
         y.toString();
         x.toString();
-
         System.out.println("o1");
         System.out.println("o2");
         x.x1();
