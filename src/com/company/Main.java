@@ -13,6 +13,7 @@ public class Main {
         System.out.println("o2");
         x.x1();
         x.x1();
+        System.out.println("base1");
     }
 }
 
