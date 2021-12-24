@@ -15,7 +15,7 @@ public class Main {
         x.x1();
         System.out.println("base1");
         System.out.println("base2");
-
+        System.out.println("as1");
     }
 }
 
