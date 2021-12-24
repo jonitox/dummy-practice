@@ -27,6 +27,7 @@ class Abc{
             System.out.println("t1");
             System.out.println("t1.2");
             System.out.println("ts1");
+            System.out.println("ts1.2");
         }
     }
     void x2 () throws IOException{
