@@ -14,10 +14,9 @@ public class Main {
         x.x1();
         x.x1();
         System.out.println("base1");
-        System.out.println("base2");
         System.out.println("as1");
         System.out.println("as2");
-
+        System.out.println("as22");
     }
 }
 
