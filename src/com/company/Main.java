@@ -1,23 +1,19 @@
 package com.company;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 public class Main {
 
     public static void main(String[] args) {
-        Abc x = new Abc();
-        Bcd y = new Bcd();
-        y.toString();
-        x.toString();
-        System.out.println("o1");
-        System.out.println("o2");
-        x.x1();
-        x.x1();
-        System.out.println("base1");
-        System.out.println("as1");
-        System.out.println("as2");
-        System.out.println("as22");
-        System.out.println("ase222");
+        ZonedDateTime t = ZonedDateTime.now();
+        System.out.println(t);
+        System.out.println(t.toString());
+        int a=3;
+        int b = 3;
+        int c=1;
+        int d =3;
     }
 }
 
@@ -26,16 +22,20 @@ class Bcd{}
 class Abc{
 
     Abc(){}
+    static public void test(String a){
+        System.out.println(a);
+    }
+    void x0() {
+        try{x1();} catch(Exception e){
+            System.out.println("# "+ e.toString());
 
-    void x1 () {
-        try{x2();}catch(IOException e){
-            System.out.println("t1");
-            System.out.println("t1.2");
-            System.out.println("ts1");
-            System.out.println("ts1.2");
         }
     }
-    void x2 () throws IOException{
-        throw new IOException();
+
+    void x1 () {
+        x2();
+    }
+    void x2 (){
+        throw new RuntimeException();
     }
 }
