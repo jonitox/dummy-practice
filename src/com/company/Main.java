@@ -24,6 +24,9 @@ class Abc{
     Abc(){}
     static public void test(String a){
         System.out.println(a);
+        System.out.println("ab");
+        System.out.println("abc");
+        System.out.println("abcd");
     }
     void x0() {
         try{x1();} catch(Exception e){
