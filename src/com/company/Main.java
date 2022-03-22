@@ -29,6 +29,7 @@ class Abc{
         System.out.println("abc");
         System.out.println("abcd");
         System.out.println("abcded");
+        System.out.println("abc");
     }
     void x0() {
         try{x1();} catch(Exception e){
