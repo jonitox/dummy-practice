@@ -14,6 +14,7 @@ public class Main {
         int b = 3;
         int c=1;
         int d =3;
+        int e=5;
     }
 }
 
