@@ -24,9 +24,10 @@ class Abc{
     Abc(){}
     static public void test(String a){
         System.out.println(a);
-        System.out.println("ab");
+        System.out.println("a");
         System.out.println("abc");
         System.out.println("abcd");
+        System.out.println("abcded");
     }
     void x0() {
         try{x1();} catch(Exception e){
@@ -42,3 +43,15 @@ class Abc{
         throw new RuntimeException();
     }
 }
+
+
+/*
+
+
+
+
+
+///
+
+
+ */
