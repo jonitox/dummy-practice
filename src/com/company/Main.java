@@ -17,18 +17,14 @@ public class Main {
     }
 }
 
-class PatientClassificationPatiient {
-    List<Integer> a= Arrays.asList(1,2);
-    List<Integer> b= Arrays.asList(1,2);
-}
+class Bcd{}
 
-class Abc {
+class Abc{
 
-    Abc() {}
-
-    static public void test(String a) {
+    Abc(){}
+    static public void test(String a){
         System.out.println(a);
-        System.out.println("a");
+        System.out.println("abc");
         System.out.println("abc");
         System.out.println("abcd");
         System.out.println("abcded");
@@ -46,7 +42,7 @@ class Abc {
         }
     }
 
-    void x1() {
+    void x1 () {
         x2();
     }
 
