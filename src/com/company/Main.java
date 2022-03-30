@@ -3,18 +3,17 @@ package com.company;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 
     public static void main(String[] args) {
-        ZonedDateTime t = ZonedDateTime.now();
-        System.out.println(t);
-        System.out.println(t.toString());
-        int a=3;
-        int b = 3;
-        int c=1;
-        int d =3;
-        int e=5;
+
+        List<Integer> a= Arrays.asList(1,2);
+        List<Integer> b= Arrays.asList(1,2);
+        System.out.println(a.equals(b));
     }
 }
 
@@ -25,15 +24,20 @@ class Abc{
     Abc(){}
     static public void test(String a){
         System.out.println(a);
-        System.out.println("a");
+        System.out.println("abc");
         System.out.println("abc");
         System.out.println("abcd");
         System.out.println("abcded");
-        System.out.println("abc");
+        System.out.println("abcdefff");
     }
+
+    public static Integer get() {
+        return null;
+    }
+
     void x0() {
-        try{x1();} catch(Exception e){
-            System.out.println("# "+ e.toString());
+        try {x1();} catch (Exception e) {
+            System.out.println("# " + e.toString());
 
         }
     }
@@ -41,7 +45,8 @@ class Abc{
     void x1 () {
         x2();
     }
-    void x2 (){
+
+    void x2() {
         throw new RuntimeException();
     }
 }
