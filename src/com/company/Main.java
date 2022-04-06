@@ -13,7 +13,6 @@ public class Main {
 
         List<Integer> a= Arrays.asList(1,2);
         System.out.println(a.equals(a));
-        System.out.println(a.equals(b));
 
     }
 }
