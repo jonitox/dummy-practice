@@ -6,15 +6,12 @@ import java.time.ZonedDateTime;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        List<Integer> a= Arrays.asList(1,2);
-        List<Integer> b= Arrays.asList(1,2);
-        System.out.println(a.equals(a));
-        System.out.println(a.equals(a));
+        IntStream.range(1,100).forEach(System.out::println);
     }
 }
 
