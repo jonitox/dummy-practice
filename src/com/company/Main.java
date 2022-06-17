@@ -15,6 +15,7 @@ public class Main {
         List<Integer> b= Arrays.asList(1,2);
         System.out.println(a.equals(a));
         System.out.println(a.equals(a));
+        System.out.println("hi");
     }
 }
 
