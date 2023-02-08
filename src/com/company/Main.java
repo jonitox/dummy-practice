@@ -16,6 +16,8 @@ public class Main {
         System.out.println(a.equals(a));
         System.out.println(a.equals(a));
         System.out.println("hi");
+        System.out.printf("hi merges");
+
     }
 }
 
