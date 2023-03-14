@@ -27,6 +27,7 @@ class Abc{
 
     Abc(){}
     static public void test(String a){
+        System.out.println("kr");
         System.out.println(a);
         System.out.println("abc");
         System.out.println("abc");
