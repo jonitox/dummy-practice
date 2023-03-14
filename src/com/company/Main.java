@@ -27,10 +27,10 @@ class Abc{
 
     Abc(){}
     static public void test(String a){
+        System.out.println("jp");
         System.out.println(a);
         System.out.println("abc");
         System.out.println("abc");
-        System.out.println("abcd");
         System.out.println("abcded");
         System.out.println("abcdefff");
     }
