@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("hi");
         System.out.println("ho");
+        System.out.println("hey");
         List<Integer> a= Arrays.asList(1,2);
         List<Integer> b= Arrays.asList(1,2);
         System.out.println(a.equals(a));
