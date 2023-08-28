@@ -49,11 +49,12 @@ class Abc{
     }
 
     void x1 () {
+        System.out.printf("hihi");
         x2();
     }
 
     void x2() {
-        System.out.printf("hohoho");
+        System.out.printf("ho");
         throw new RuntimeException();
     }
 }
