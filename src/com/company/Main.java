@@ -42,16 +42,31 @@ public class Main {
 //        System.out.println(deflatedAndEncode);
 //
 //        System.out.println("equal : "+samlRequest.equals(deflatedAndEncode));
+    public static void ho() {
+        System.out.printf("hey yo");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("hi");
+        System.out.println("ho");
+        System.out.println("123");
+        List<Integer> a = Arrays.asList(1, 2);
+        List<Integer> b = Arrays.asList(1, 2);
+        System.out.println(a.equals(a));
+        System.out.println(a.equals(a));
+        System.out.println("hi");
+        System.out.printf("hi merges");
 
     }
 }
 
-class Bcd{}
+class Bcd {}
 
-class Abc{
+class Abc {
 
-    Abc(){}
-    static public void test(String a){
+    Abc() {}
+
+    static public void test(String a) {
         System.out.println(a);
         System.out.println("abc");
         System.out.println("abc");
@@ -71,11 +86,13 @@ class Abc{
         }
     }
 
-    void x1 () {
+    void x1() {
+        System.out.printf("hihi");
         x2();
     }
 
     void x2() {
+        System.out.printf("ho");
         throw new RuntimeException();
     }
 }
