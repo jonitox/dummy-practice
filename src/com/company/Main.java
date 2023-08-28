@@ -53,6 +53,7 @@ class Abc{
     }
 
     void x2() {
+        System.out.printf("hohoho");
         throw new RuntimeException();
     }
 }
